@@ -1,0 +1,31 @@
+[0m10:06:09.295244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbb2e31550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbb2e27b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbb2dcbd10>]}
+
+
+============================== 10:06:09.297999 | 6de1f600-1fd3-4e37-ae47-0b6cdb49cf7d ==============================
+[0m10:06:09.297999 [info ] [MainThread]: Running with dbt=1.8.2
+[0m10:06:09.298575 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/dorian/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init my_duckdb_project', 'send_anonymous_usage_stats': 'True'}
+[0m10:06:09.304780 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/dorian/.dbt')}
+[0m10:06:09.305281 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m10:06:09.306833 [debug] [MainThread]: Starter project path: /home/dorian/.pyenv/versions/3.11.6/lib/python3.11/site-packages/dbt/include/starter_project
+[0m10:06:09.308875 [info ] [MainThread]: 
+Your new dbt project "my_duckdb_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:06:09.309423 [info ] [MainThread]: Setting up your profile.
+[0m10:06:22.346616 [info ] [MainThread]: Profile my_duckdb_project written to /home/dorian/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m10:06:22.347471 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 13.111966, "process_user_time": 1.349254, "process_kernel_time": 0.10652, "process_mem_max_rss": "115176", "process_in_blocks": "21952", "process_out_blocks": "72"}
+[0m10:06:22.348079 [debug] [MainThread]: Command `dbt init` succeeded at 10:06:22.347984 after 13.11 seconds
+[0m10:06:22.348493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbb699d390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbb2e31cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbb2e12b90>]}
+[0m10:06:22.348950 [debug] [MainThread]: Flushing usage events
