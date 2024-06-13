@@ -5,6 +5,6 @@
 SELECT 
     sum(Abstentions) AS sum_abs, 
     id_election 
-FROM {{ ref('load_csv_sql') }}
+FROM {{ ref('load_iceberg') }}
 GROUP BY id_election 
 ORDER BY sum_abs 
